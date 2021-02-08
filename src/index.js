@@ -1,16 +1,9 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import Header from "./components/header"
-import Main from "./components/main"
-import Footer from "./components/footer"
-import Todo from "./todo/todo"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import App from "./components/App"
 
 ReactDOM.render(
-  <div>
-    <Header />
-    <Main />
-    <Todo />
-    <Footer />
-  </div>
+  <App />
   , document.getElementById("root"))
 
